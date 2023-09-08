@@ -1,0 +1,12 @@
+{
+    "name": "Browser Back with Ctrl+z for Chrome",
+    "description": "Add Ctrl+z to the browser back shortcut key",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
+        }
+    ]
+  }
